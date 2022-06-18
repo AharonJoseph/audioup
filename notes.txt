@@ -1,0 +1,26 @@
+1. Click on code in the GitHub menu option of your repository 
+
+2. Copy the git remote add orgin line: 
+	ex: git remote add origin https://github.com/AharonJoseph/audioup.git
+
+3. Open visual studio code terminal 
+	go to visual studio code
+	click on terminal menu item
+	click on new terminal
+
+4. Connect GitHub account to your computer via git ( you only have to do once )
+
+        git config --global user.name "aharonjoseph"
+        // git will make this username the main GitHub account for the whole computer 
+
+        git config --global user.email "aaron.mike.jospeh@gmail.com"
+        // git will make this user email the main GitHub email t for the whole computer 
+
+        git config --list
+        // list all configuration details - what you want is the user name and email
+
+        user.name=aharonjoseph
+        user.email=aaron.mike.jospeh@gmail.com
+        // terminal response to prove that your computer is connected to your GitHub account
+
+        

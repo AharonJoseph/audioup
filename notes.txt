@@ -10,17 +10,45 @@
 
 4. Connect GitHub account to your computer via git ( you only have to do once )
 
+        open your computers terminal
+
         git config --global user.name "aharonjoseph"
-        // git will make this username the main GitHub account for the whole computer 
+        // insert the above line in the computers terminal and git will make this username the main GitHub username for the whole computer 
 
         git config --global user.email "aaron.mike.jospeh@gmail.com"
-        // git will make this user email the main GitHub email t for the whole computer 
+        // insert the above line in the computers terminal and git will make this user email the main GitHub email for the whole computer 
 
         git config --list
-        // list all configuration details - what you want is the user name and email
+        // insert the above line in the computers terminal to list all configuration details - which should includes user name and email
 
         user.name=aharonjoseph
         user.email=aaron.mike.jospeh@gmail.com
         // terminal response to prove that your computer is connected to your GitHub account
 
-        
+
+4. 
+    git init
+    // initialize (identify that this folder is going to use the git program) your folder with git
+
+5. paste the git remote add origin line into the visual studio terminal
+        git remote add origin https://github.com/AharonJoseph/audioup.git
+
+6. Check that your local folder is connected to your github repository (folder)
+
+    git remote -v 
+
+    origin  https://github.com/AharonJoseph/audioup.git (fetch)
+    origin  https://github.com/AharonJoseph/audioup.git (push)
+
+            expected terminal response above
+
+7. Everything you make a change to your code. The following three lines will upload your changes.
+
+    git add . 
+        // add the changes 
+    
+    git commit -m "message"
+        // explaning the change you made
+
+    git push 
+        // upload your changes to github

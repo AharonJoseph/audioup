@@ -1,7 +1,7 @@
 .Audio-Upper-Box {
     display: flex;
     justify-content: space-between;
-    
+
 
 }
 .Logo-Box {
@@ -10,6 +10,19 @@
 .Menu-Box {
     display: flex;
 }
+
+.Menu-Box p {
+    /* target the menubox + target all the p elements inside */
+    margin: 3px
+}
+
+
 .Up-Image {
     width: 5rem;
+}
+.Sub {
+    background-color: grey;
+    width: 4rem;
+    padding: 5px;
+    color: white;   
 }

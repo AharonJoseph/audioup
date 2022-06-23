@@ -1,6 +1,15 @@
-.logo {
+.Audio-Upper-Box {
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.Logo-Box {
     background-color:red;
 }
 .Menu-Box {
     display: flex;
+}
+.Up-Image {
+    width: 5rem;
 }

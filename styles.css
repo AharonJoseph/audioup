@@ -1,3 +1,6 @@
-.image {
+.logo {
     background-color:red;
+}
+.Menu-Box {
+    display: flex;
 }

@@ -1,6 +1,6 @@
 .Audio-Upper-Box {
     display: flex;
-    justify-content: space-between;
+    justify-csontent: space-between;
 
 
 }
@@ -29,3 +29,15 @@
 .Asset {
     width: 100%;
 }
+
+.DaImages {
+    display: flex;
+    /* The below two lines
+    will make the elements s */
+    overflow:auto;
+    width:100%;
+}
+
+/* .singleShowImage {
+    width:12.5rem;
+} */

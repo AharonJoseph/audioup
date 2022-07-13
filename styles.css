@@ -32,10 +32,14 @@
 
 .DaImages {
     display: flex;
-    /* The below two lines
-    will make the elements s */
+    /* General explanation: The below two lines
+    will make the elements slide inside the div */
     overflow:auto;
     width:100%;
+    /* Specific explanation: give the element that has this class 
+    the ability to have a fixed width
+    while letting everything inside it slide
+    either horizontally or vertically */
 }
 
 /* .singleShowImage {

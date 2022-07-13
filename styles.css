@@ -48,9 +48,16 @@
 
 .MediaBox {
     background-color: lightgray;
-    padding: 2rem;
-    /* Add this image as the background of this element */
     background-image:url("./assets/mediaboximage.jpeg");
-    background-size:cover;
-    /* height:30rem; */
+    /*  */
+    padding: 2rem;
+    /* Add the image below as the background of this element */
+    /* background-image:url("./assets/mediaboximage.jpeg"); */
+    /* keep the image inside the div */
+background-size:contain;
+    /* don't repeat */
+    background-repeat: no-repeat;
+    /* width:100%; */
+    /* below here */
+
 }

@@ -89,6 +89,7 @@
     /* flex-direction: column */
     background-size: contain;
     display: flex;
-    width: 
+    margin: 10px;
+    
     
 }

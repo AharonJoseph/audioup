@@ -86,17 +86,19 @@
 
 .AdWeek {
     background-color: black;
-    /* flex-direction: column */
+    width: 100%;
     background-size: contain;
     display: flex;
     flex-direction:column;
     justify-content:flex-end;
     align-items:center;
+    height: 38rem
     
 }
 
 .AdWeek1 {
     background-color: black;
+    width: 100%;
     background-size: contain;
     display: flex;
     flex-direction:column;
@@ -108,4 +110,5 @@
 {
     justify-content:center;
     display: flex;
+
 }

@@ -48,8 +48,8 @@
 
 .MediaBox {
     background-color: lightgray;
-    padding:2rem;
-    height:30rem;
+    /* padding:2rem; */
+    height:38rem;
     /* Add the image below as the background of this element */
     /* background-image:url("./assets/mediaboximage.jpeg"); */
     /* keep the image inside the div */
@@ -59,7 +59,7 @@
 
 .mediabox2 {
     background-image:url("./assets/mediaboximage.jpeg");
-    background-size: 100% 100%;
+    background-size: 100% 100% contain;
     /* don't repeat */
     background-repeat: no-repeat;
     /* width:100%; */
@@ -69,3 +69,8 @@
 
 }
 
+.AdWeek {
+    background-color: black;
+    display: flexbox;
+    
+}

@@ -97,14 +97,19 @@
 
 .AdWeek {
     background-color: black;
-    width: 31rem;
+    width: 30rem;
+    height: 30rem;
     background-size: contain;
     display: flex;
     flex-direction:column;
     justify-content:flex-end;
     align-items:center;
-    height: 33rem;
     border-radius: 5px;
 
+}
+
+.Aderol {
+    margin: 6rem;
+    align-items: center;
 }
 

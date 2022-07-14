@@ -83,32 +83,21 @@
 
 /* Adweek box styles below */
 
+.AdweekBox {
+    display: flex;
+    justify-content:center;
+    background-color:black;
+    color: white;
+}
 
 .AdWeek {
     background-color: black;
-    width: 100%;
+    width: 31rem;
     background-size: contain;
     display: flex;
     flex-direction:column;
     justify-content:flex-end;
     align-items:center;
-    height: 38rem
-    
+    height: 33rem;
 }
 
-.AdWeek1 {
-    background-color: black;
-    width: 100%;
-    background-size: contain;
-    display: flex;
-    flex-direction:column;
-    justify-content:flex-end;
-    align-items:center;
-}
-
-.AdweekBox
-{
-    justify-content:center;
-    display: flex;
-
-}

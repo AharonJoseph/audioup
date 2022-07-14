@@ -46,31 +46,50 @@
     width:12.5rem;
 } */
 
+/* Media box styles below */
+
 .MediaBox {
     background-color: lightgray;
-    /* padding:2rem; */
-    height:38rem;
-    /* Add the image below as the background of this element */
-    /* background-image:url("./assets/mediaboximage.jpeg"); */
-    /* keep the image inside the div */
-    /* below here */
-
+    margin-top:2rem;
+    margin-bottom:2rem;
+    height:35rem;
 }
 
 .mediabox2 {
+    /* Add the image below as the background of this element */
     background-image:url("./assets/mediaboximage.jpeg");
-    background-size: 100% 100% contain;
-    /* don't repeat */
+    background-size: 100% 100%;
+
+    /* background-size:contain; */
+    /* background-size:100%; */
     background-repeat: no-repeat;
-    /* width:100%; */
-    height:100%;
-
-
-
+    /* height:35rem; */
+    /*  */
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    align-items:center;
+    padding:2rem;
+    /*  */
+    color:white;
 }
+
+.mediabox2 h1{
+ font-size:3rem;
+}
+
+.mediabox2 p {
+    font-size:1.3rem;
+    line-height: 2rem;
+}
+
+/* Adweek box styles below */
+
 
 .AdWeek {
     background-color: black;
-    display: flexbox;
+    /* flex-direction: column */
+    background-size: contain;
+    
     
 }

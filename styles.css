@@ -54,10 +54,10 @@
     /* Add the image below as the background of this element */
     /* background-image:url("./assets/mediaboximage.jpeg"); */
     /* keep the image inside the div */
-background-size:contain;
+    background-size:contain;
     /* don't repeat */
     background-repeat: no-repeat;
-    /* width:100%; */
+    width:100%;
     /* below here */
-
+    
 }

@@ -89,7 +89,23 @@
     /* flex-direction: column */
     background-size: contain;
     display: flex;
-    margin: 10px;
+    flex-direction:column;
+    justify-content:flex-end;
+    align-items:center;
     
-    
+}
+
+.AdWeek1 {
+    background-color: black;
+    background-size: contain;
+    display: flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    align-items:center;
+}
+
+.AdweekBox
+{
+    justify-content:center;
+    display: flex;
 }
